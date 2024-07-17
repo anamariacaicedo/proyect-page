@@ -532,4 +532,242 @@ footer{
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+@media only screen and (max-width: 480px) {
+    
+    header {
+        
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .img-logo1 {
+        margin: 0px 30% 0px 30%;
+        margin-top: 25px;
+        width: 150px;
+        height: 50px;
+    }
+
+    .product-page {
+        width: 100%;
+    }
+
+    .cellphone {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+
+    }
+
+    .anclass {
+        display: flex;
+        left: 0;
+        margin-top: 120px;
+        width: 10px;
+        color: #fff;
+        justify-content: space-between;
+        gap: 40px;
+
+    }
+
+    .free,
+    .standard,
+    .ultimate {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .text2 {
+        font-size: 1rem;
+    }
+
+    .title-sec2 {
+        font-size: 30px;
+    }
+
+    .subtitle-sec2 {
+        font-size: 1.6rem;
+    }
+
+    .p-sec2 {
+        font-size: 1.2rem;
+    }
+
+    .title-Li {
+        font-size: 1rem;
+    }
+
+    .text3 {
+        font-size: 14px;
+    }
+
+    .zeroFree {
+        font-size: 25px;
+    }
+
+    .moneySymbol {
+        font-size: 20px;
+    }
+
+    .text-Li {
+        font-size: 14px;
+    }
+
+
+    .nav-anclas {
+        position: relative;
+        left: 0;
+        top: 0.9rem;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .a {
+        margin-bottom: 10px;
+    }
+
+    .title {
+        left: 0;
+        top: 8rem;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .text2 {
+        left: -5%;
+        top: 11rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .buttons {
+        left: 10%;
+        top: 14rem;
+        display: flex;
+        justify-content: center;
+        width: 350px;
+    }
+
+    .btn-download,
+    .btn-features {
+        margin: 0 10px;
+    }
+
+    .img-laptop {
+        top: 105rem;
+        left: 20%;
+        width: 300px;
+        height: 200px;
+    }
+
+    .title-sec2 {
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .subtitle-sec2 {
+        width: 100%;
+        text-align: center;
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+
+    .p-sec2 {
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .title-Li {
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .third-section {
+        flex-direction: column;
+        height: 2400px;
+    }
+
+    .free,
+    .standard,
+    .ultimate {
+        margin-bottom: 15px;
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product {
+        display: flex;
+        flex-direction: column;
+        background-color: #2E2550;
+        height: 500px;
+        width: 100%;
+    }
+
+    .title {
+        width: 17rem;
+        font-size: 5rem;
+        font-weight: bolder;
+        margin-top: -80px;
+        left: 15%;
+        right: 7%;
+    }
+
+    .phone1 {
+        left: 34%;
+        margin-top: 420px;
+        height: 230px;
+        width: 140px;
+    }
+
+    .p-sec2 {
+        left: 5rem;
+        width: 20rem;
+    }
+
+    .subtitle-section2 {
+        left: 5rem;
+    }
+
+    .title-Li {
+        width: 15rem;
+        left: 2rem;
+    }
+
+    .chulito {
+        left: 5rem;
+        width: 20rem;
+    }
+
+    .second-section {
+        height: 500px;
+    }
+
+    .title-sec3 {
+        margin-top: -20px;
+        font-size: 45px;
+    }
+
+    .text3 {
+        color: #ffffff7b;
+        width: 400px;
+        margin-left: 5%;
+        margin-right: 10%;
+        font-size: 17px;
+    }
+
+    .free,.standard,.ultimate{
+        width: 450px;
+        margin-left: 0%;
+    }
+}
 
